@@ -4,13 +4,12 @@
   text-align: center;
   margin: auto;
   background-color: gray;
+  font-family: 'Source Code Pro'
   /* finish your styling of the cover div here! */
 }
 #title {
   padding-top: .5in; 
   font-size: 35px;
-
-
 }
 
 #subtitle {
