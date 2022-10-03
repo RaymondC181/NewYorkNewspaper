@@ -24,7 +24,6 @@
   margin: 10px 0; 
   position: relative; left: 10px;
   color: rgb(76, 87, 96);
-  font-weight: 900;
   font-family: 'Raleway'
 }
 
@@ -36,7 +35,7 @@
 }
 
 #block_quote {
-  border-left: 2px solid rgb(76, 87, 96);
+  border-left: 1px solid rgb(76, 87, 96);
   position: relative; left: 120px;
   font-size: large;
   color: rgb(140, 47, 57);
