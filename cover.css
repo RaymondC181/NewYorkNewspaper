@@ -14,12 +14,14 @@
 
 #subtitle {
  position: relative; left: 80px;
- font-size: medium;
+ font-size: x-small;
  color: cyan;
  opacity: 50%;
 
 }
 
 #cover_image {
+
+width: 250px;
 
 }
