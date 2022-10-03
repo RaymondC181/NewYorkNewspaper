@@ -7,15 +7,17 @@
   /* finish your styling of the cover div here! */
 }
 #title {
-  word-spacing: 325px;
-  padding-top: .5in;
-  font-size: xx-large;
+  padding-top: .5in; 
+  font-size: 35px;
+
+
 }
 
 #subtitle {
  position: relative; left: 80px;
  font-size: medium;
  color: cyan;
+ opacity: 50%;
 
 }
 
