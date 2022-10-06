@@ -1,26 +1,37 @@
 .page {
-  width: 380px;
+  width: 400px;
   height: 575px;
   text-align: left;
-  margin: auto;
-  background-color: rgb(211, 208, 203);
+  margin: auto;        
+
+  border: solid 3px black;
+
+  background-image: url("gradient.png");
+  background-repeat: repeat-x;
+  background-size: cover;
 }
 
 #article_title {
+  text-shadow: 2px 2px gray;
   padding-top: .2in; 
-  letter-spacing: 3px;
+  letter-spacing: 3.5px;
   position: relative; left: 100px;
   color: rgb(70, 18, 32);
   font-family: 'Anton'
 }
 
 #intro {
+  padding-left: 5px;
+  padding-right: 10px;
   position: relative; left: 10px;
   color: rgb(140, 47, 57);
   font-family: 'Oswald'
 }
 
 .question{
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 10px;
   margin: 10px 0; 
   position: relative; left: 10px;
   color: rgb(76, 87, 96);
@@ -28,6 +39,8 @@
 }
 
 .answer{
+  padding-left: 5px;
+  padding-right: 10px;
   margin: 10px 0;
   position: relative; left: 10px;
   color: rgb(76, 87, 96); 
@@ -35,6 +48,8 @@
 }
 
 #block_quote {
+  padding-right: 10px;
+  padding-left: 10px;
   border-left: 1px solid rgb(76, 87, 96);
   position: relative; left: 120px;
   font-size: large;
